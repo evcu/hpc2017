@@ -22,7 +22,7 @@ double compute_residual(double **u, int N, double invhsq)
       res += tmp * tmp;
     }
   }
-  return sqrt(res);
+  return sqrt(res)/(N*N);
 }
 
 int main(int argc, char * argv[])
