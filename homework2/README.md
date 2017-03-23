@@ -28,7 +28,7 @@ Since I've timed the function for N=100,500,1000,2500,5000. Here I zoomed in the
 
 I got the following timings for Gauss-Siedel Smooting.
 
-![GSall](report/GSall.jpg)
+![GSall](report/GSAll.jpg)
 
 Since I've timed the function for N=100,500,1000,2500,5000. Here I zoomed in the N=[0,1100] part.
 
