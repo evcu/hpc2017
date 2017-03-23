@@ -3,6 +3,18 @@
 __NOTE__:If `gcc-6` doesn't exists in local computer, update compiler in `Makefile`. 
 
 ## To run the code
+```
+git clone https://github.com/evcu/hpc2017.git
+cd hpc2017/homework2
+make
+./omp_solved2
+./omp_solved3
+./omp_solved4
+./omp_solved5
+./omp_solved6
+./jacobi2D-omp 100 1000
+./gs2D-omp 100 1000
+```
 - Run `make`. This will compile the bug-sources and the omp-implementations of jacobi and gauss-siedel smoothing. 
 - Run `make no-omp`. This will compile 2d jacobi and gauss-siedel smoothing without openmp flag. 
 
