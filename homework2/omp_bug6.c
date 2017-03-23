@@ -12,7 +12,7 @@
 #define VECLEN 100
 
 float a[VECLEN], b[VECLEN];
-// FIX: Declare sum as a global variable and remove it from other parts. 
+// FIX: Declare sum as a global variable and remove it from other parts. Made the function void.
 float sum;
 
 void dotprod ()
