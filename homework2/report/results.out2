@@ -1,0 +1,71 @@
+Thu Mar 23 15:23:36 EDT 2017
+1 100
+Time elapsed is 0.192133 seconds.
+1 500
+Time elapsed is 1.980587 seconds.
+1 1000
+Time elapsed is 6.494050 seconds.
+1 2500
+Time elapsed is 46.955482 seconds.
+1 5000
+Time elapsed is 181.663764 seconds.
+4 100
+Time elapsed is 0.073208 seconds.
+4 500
+Time elapsed is 0.983156 seconds.
+4 1000
+Time elapsed is 1.627573 seconds.
+4 2500
+Time elapsed is 22.226385 seconds.
+4 5000
+Time elapsed is 82.602210 seconds.
+8 100
+Time elapsed is 0.025917 seconds.
+8 500
+Time elapsed is 0.258832 seconds.
+8 1000
+Time elapsed is 0.879714 seconds.
+8 2500
+Time elapsed is 19.077342 seconds.
+8 5000
+Time elapsed is 72.106561 seconds.
+16 100
+Time elapsed is 111.010063 seconds.
+16 500
+Time elapsed is 59.985972 seconds.
+16 1000
+Time elapsed is 111.031107 seconds.
+16 2500
+Time elapsed is 31.324037 seconds.
+16 5000
+Time elapsed is 100.635983 seconds.
+24 100
+Time elapsed is 0.344630 seconds.
+24 500
+Time elapsed is 1.330672 seconds.
+24 1000
+Time elapsed is 2.797184 seconds.
+24 2500
+Time elapsed is 20.546156 seconds.
+24 5000
+Time elapsed is 81.010999 seconds.
+32 100
+Time elapsed is 0.829039 seconds.
+32 500
+Time elapsed is 1.519741 seconds.
+32 1000
+Time elapsed is 3.646214 seconds.
+32 2500
+Time elapsed is 20.946427 seconds.
+32 5000
+Time elapsed is 85.467407 seconds.
+64 100
+Time elapsed is 1.459554 seconds.
+64 500
+Time elapsed is 1.739290 seconds.
+64 1000
+Time elapsed is 4.760189 seconds.
+64 2500
+Time elapsed is 20.815396 seconds.
+64 5000
+Time elapsed is 78.233202 seconds.
