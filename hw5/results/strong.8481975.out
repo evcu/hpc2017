@@ -1,0 +1,868 @@
+TACC: Starting up job 8481975
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 1/4 running on c463-302.stampede.tacc.utexas.edu.
+Rank 2/4 running on c463-302.stampede.tacc.utexas.edu.
+Rank 3/4 running on c463-302.stampede.tacc.utexas.edu.
+Rank 0/4 running on c463-302.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 16777216, max_iters = 10
+Rank 0: Number of MG levels: 24 
+l: 0: h=0.000000
+MG level  0, N = 16777216
+l: 1: h=0.000000
+MG level  1, N =  8388608
+l: 2: h=0.000000
+MG level  2, N =  4194304
+l: 3: h=0.000000
+MG level  3, N =  2097152
+l: 4: h=0.000000
+MG level  4, N =  1048576
+l: 5: h=0.000000
+MG level  5, N =   524288
+l: 6: h=0.000001
+MG level  6, N =   262144
+l: 7: h=0.000002
+MG level  7, N =   131072
+l: 8: h=0.000004
+MG level  8, N =    65536
+l: 9: h=0.000008
+MG level  9, N =    32768
+l: 10: h=0.000015
+MG level 10, N =    16384
+l: 11: h=0.000031
+MG level 11, N =     8192
+l: 12: h=0.000061
+MG level 12, N =     4096
+l: 13: h=0.000122
+MG level 13, N =     2048
+l: 14: h=0.000244
+MG level 14, N =     1024
+l: 15: h=0.000488
+MG level 15, N =      512
+l: 16: h=0.000977
+MG level 16, N =      256
+l: 17: h=0.001953
+MG level 17, N =      128
+l: 18: h=0.003906
+MG level 18, N =       64
+l: 19: h=0.007812
+MG level 19, N =       32
+l: 20: h=0.015625
+MG level 20, N =       16
+l: 21: h=0.031250
+MG level 21, N =        8
+l: 22: h=0.062500
+MG level 22, N =        4
+l: 23: h=0.125000
+MG level 23, N =        2
+Initial Residual: 8192.000122
+[Iter 0] Residual norm: 659.15583836
+[Iter 1] Residual norm: 549.16706760
+[Iter 2] Residual norm: 512.24462961
+[Iter 3] Residual norm: 493.66670683
+[Iter 4] Residual norm: 484.24794766
+[Iter 5] Residual norm: 480.85803614
+[Iter 6] Residual norm: 473.52602915
+[Iter 7] Residual norm: 377.20645627
+[Iter 8] Residual norm: 315.99126436
+[Iter 9] Residual norm: 500.44186388
+Time elapsed is 24.166163 seconds.
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 8481975
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 8/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 9/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 10/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 12/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 15/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 11/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 4/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 3/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 7/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 0/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 6/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 13/16 running on c463-302.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 4194304, max_iters = 10
+Rank 0: Number of MG levels: 22 
+Rank 1/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 2/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 14/16 running on c463-302.stampede.tacc.utexas.edu.
+Rank 5/16 running on c463-302.stampede.tacc.utexas.edu.
+l: 0: h=0.000000
+MG level  0, N =  4194304
+l: 1: h=0.000000
+MG level  1, N =  2097152
+l: 2: h=0.000000
+MG level  2, N =  1048576
+l: 3: h=0.000000
+MG level  3, N =   524288
+l: 4: h=0.000000
+MG level  4, N =   262144
+l: 5: h=0.000000
+MG level  5, N =   131072
+l: 6: h=0.000001
+MG level  6, N =    65536
+l: 7: h=0.000002
+MG level  7, N =    32768
+l: 8: h=0.000004
+MG level  8, N =    16384
+l: 9: h=0.000008
+MG level  9, N =     8192
+l: 10: h=0.000015
+MG level 10, N =     4096
+l: 11: h=0.000031
+MG level 11, N =     2048
+l: 12: h=0.000061
+MG level 12, N =     1024
+l: 13: h=0.000122
+MG level 13, N =      512
+l: 14: h=0.000244
+MG level 14, N =      256
+l: 15: h=0.000488
+MG level 15, N =      128
+l: 16: h=0.000977
+MG level 16, N =       64
+l: 17: h=0.001953
+MG level 17, N =       32
+l: 18: h=0.003906
+MG level 18, N =       16
+l: 19: h=0.007812
+MG level 19, N =        8
+l: 20: h=0.015625
+MG level 20, N =        4
+l: 21: h=0.031250
+MG level 21, N =        2
+Initial Residual: 8192.000854
+[Iter 0] Residual norm: 6238.04595610
+[Iter 1] Residual norm: 5238.74442440
+[Iter 2] Residual norm: 4415.34865451
+[Iter 3] Residual norm: 3721.51916390
+[Iter 4] Residual norm: 3141.79460919
+[Iter 5] Residual norm: 2667.78261293
+[Iter 6] Residual norm: 2268.23153503
+[Iter 7] Residual norm: 1902.95738668
+[Iter 8] Residual norm: 1607.04384545
+[Iter 9] Residual norm: 1350.70961776
+Time elapsed is 10.347527 seconds.
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 8481975
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 10/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 8/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 9/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 14/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 12/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 3/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 2/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 4/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 13/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 7/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 6/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 0/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 1/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 5/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 15/32 running on c463-302.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 2097152, max_iters = 10
+Rank 0: Number of MG levels: 21 
+Rank 11/32 running on c463-302.stampede.tacc.utexas.edu.
+Rank 22/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 18/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 23/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 19/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 21/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 16/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 17/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 29/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 24/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 28/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 26/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 30/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 20/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 25/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 27/32 running on c463-704.stampede.tacc.utexas.edu.
+Rank 31/32 running on c463-704.stampede.tacc.utexas.edu.
+l: 0: h=0.000000
+MG level  0, N =  2097152
+l: 1: h=0.000000
+MG level  1, N =  1048576
+l: 2: h=0.000000
+MG level  2, N =   524288
+l: 3: h=0.000000
+MG level  3, N =   262144
+l: 4: h=0.000000
+MG level  4, N =   131072
+l: 5: h=0.000000
+MG level  5, N =    65536
+l: 6: h=0.000001
+MG level  6, N =    32768
+l: 7: h=0.000002
+MG level  7, N =    16384
+l: 8: h=0.000004
+MG level  8, N =     8192
+l: 9: h=0.000008
+MG level  9, N =     4096
+l: 10: h=0.000015
+MG level 10, N =     2048
+l: 11: h=0.000031
+MG level 11, N =     1024
+l: 12: h=0.000061
+MG level 12, N =      512
+l: 13: h=0.000122
+MG level 13, N =      256
+l: 14: h=0.000244
+MG level 14, N =      128
+l: 15: h=0.000488
+MG level 15, N =       64
+l: 16: h=0.000977
+MG level 16, N =       32
+l: 17: h=0.001953
+MG level 17, N =       16
+l: 18: h=0.003906
+MG level 18, N =        8
+l: 19: h=0.007812
+MG level 19, N =        4
+l: 20: h=0.015625
+MG level 20, N =        2
+Initial Residual: 8192.001831
+[Iter 0] Residual norm: 7280.57121107
+[Iter 1] Residual norm: 6867.14312369
+[Iter 2] Residual norm: 6532.43742284
+[Iter 3] Residual norm: 6236.86501699
+[Iter 4] Residual norm: 5965.03245201
+[Iter 5] Residual norm: 5710.02811064
+[Iter 6] Residual norm: 5468.10776982
+[Iter 7] Residual norm: 5238.71017971
+[Iter 8] Residual norm: 5019.11866211
+[Iter 9] Residual norm: 4809.30488010
+Time elapsed is 5.137773 seconds.
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 8481975
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 12/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 8/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 15/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 13/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 14/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 9/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 10/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 3/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 1/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 11/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 0/64 running on c463-302.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 1048576, max_iters = 10
+Rank 4/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 0: Number of MG levels: 20 
+Rank 6/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 5/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 2/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 7/64 running on c463-302.stampede.tacc.utexas.edu.
+Rank 51/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 48/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 53/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 52/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 57/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 55/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 56/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 59/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 49/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 63/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 62/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 54/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 50/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 58/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 60/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 61/64 running on c464-102.stampede.tacc.utexas.edu.
+Rank 31/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 28/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 26/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 24/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 16/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 17/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 18/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 23/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 29/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 25/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 20/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 21/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 22/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 30/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 19/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 27/64 running on c463-704.stampede.tacc.utexas.edu.
+Rank 41/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 42/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 46/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 40/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 45/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 44/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 47/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 39/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 38/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 34/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 32/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 43/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 35/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 33/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 36/64 running on c463-901.stampede.tacc.utexas.edu.
+Rank 37/64 running on c463-901.stampede.tacc.utexas.edu.
+l: 0: h=0.000000
+MG level  0, N =  1048576
+l: 1: h=0.000000
+MG level  1, N =   524288
+l: 2: h=0.000000
+MG level  2, N =   262144
+l: 3: h=0.000000
+MG level  3, N =   131072
+l: 4: h=0.000000
+MG level  4, N =    65536
+l: 5: h=0.000000
+MG level  5, N =    32768
+l: 6: h=0.000001
+MG level  6, N =    16384
+l: 7: h=0.000002
+MG level  7, N =     8192
+l: 8: h=0.000004
+MG level  8, N =     4096
+l: 9: h=0.000008
+MG level  9, N =     2048
+l: 10: h=0.000015
+MG level 10, N =     1024
+l: 11: h=0.000031
+MG level 11, N =      512
+l: 12: h=0.000061
+MG level 12, N =      256
+l: 13: h=0.000122
+MG level 13, N =      128
+l: 14: h=0.000244
+MG level 14, N =       64
+l: 15: h=0.000488
+MG level 15, N =       32
+l: 16: h=0.000977
+MG level 16, N =       16
+l: 17: h=0.001953
+MG level 17, N =        8
+l: 18: h=0.003906
+MG level 18, N =        4
+l: 19: h=0.007812
+MG level 19, N =        2
+Initial Residual: 8192.003784
+[Iter 0] Residual norm: 7749.68515046
+[Iter 1] Residual norm: 7558.57876854
+[Iter 2] Residual norm: 7408.74050517
+[Iter 3] Residual norm: 7280.05188340
+[Iter 4] Residual norm: 7164.75049700
+[Iter 5] Residual norm: 7058.89049009
+[Iter 6] Residual norm: 6960.12084628
+[Iter 7] Residual norm: 6867.04627209
+[Iter 8] Residual norm: 6778.35450057
+[Iter 9] Residual norm: 6693.38178370
+Time elapsed is 2.492416 seconds.
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 8481975
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 24/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 31/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 25/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 28/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 19/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 20/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 27/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 18/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 16/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 23/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 30/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 22/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 17/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 29/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 21/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 26/128 running on c463-704.stampede.tacc.utexas.edu.
+Rank 46/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 44/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 45/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 41/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 40/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 42/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 32/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 35/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 36/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 37/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 38/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 33/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 39/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 34/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 43/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 47/128 running on c463-901.stampede.tacc.utexas.edu.
+Rank 11/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 14/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 3/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 10/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 8/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 7/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 6/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 5/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 12/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 13/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 15/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 4/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 1/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 0/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 2/128 running on c463-302.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 524288, max_iters = 10
+Rank 0: Number of MG levels: 19 
+Rank 9/128 running on c463-302.stampede.tacc.utexas.edu.
+Rank 60/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 62/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 58/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 49/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 56/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 50/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 61/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 57/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 54/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 51/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 53/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 52/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 59/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 48/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 63/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 55/128 running on c464-102.stampede.tacc.utexas.edu.
+Rank 74/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 76/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 72/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 73/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 79/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 77/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 75/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 78/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 65/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 71/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 69/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 68/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 70/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 67/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 66/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 64/128 running on c464-202.stampede.tacc.utexas.edu.
+Rank 121/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 120/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 126/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 124/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 122/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 125/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 117/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 119/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 127/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 112/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 113/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 116/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 115/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 118/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 114/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 123/128 running on c465-303.stampede.tacc.utexas.edu.
+Rank 88/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 89/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 95/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 94/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 93/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 92/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 91/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 87/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 85/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 86/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 81/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 83/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 84/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 80/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 90/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 82/128 running on c464-302.stampede.tacc.utexas.edu.
+Rank 108/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 105/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 106/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 110/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 111/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 104/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 109/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 102/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 100/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 99/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 103/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 101/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 98/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 107/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 97/128 running on c465-302.stampede.tacc.utexas.edu.
+Rank 96/128 running on c465-302.stampede.tacc.utexas.edu.
+l: 0: h=0.000000
+MG level  0, N =   524288
+l: 1: h=0.000000
+MG level  1, N =   262144
+l: 2: h=0.000000
+MG level  2, N =   131072
+l: 3: h=0.000000
+MG level  3, N =    65536
+l: 4: h=0.000000
+MG level  4, N =    32768
+l: 5: h=0.000000
+MG level  5, N =    16384
+l: 6: h=0.000001
+MG level  6, N =     8192
+l: 7: h=0.000002
+MG level  7, N =     4096
+l: 8: h=0.000004
+MG level  8, N =     2048
+l: 9: h=0.000008
+MG level  9, N =     1024
+l: 10: h=0.000015
+MG level 10, N =      512
+l: 11: h=0.000031
+MG level 11, N =      256
+l: 12: h=0.000061
+MG level 12, N =      128
+l: 13: h=0.000122
+MG level 13, N =       64
+l: 14: h=0.000244
+MG level 14, N =       32
+l: 15: h=0.000488
+MG level 15, N =       16
+l: 16: h=0.000977
+MG level 16, N =        8
+l: 17: h=0.001953
+MG level 17, N =        4
+l: 18: h=0.003906
+MG level 18, N =        2
+Initial Residual: 8192.007690
+[Iter 0] Residual norm: 7973.91535255
+[Iter 1] Residual norm: 7881.65752613
+[Iter 2] Residual norm: 7810.19636993
+[Iter 3] Residual norm: 7749.44532407
+[Iter 4] Residual norm: 7695.52624469
+[Iter 5] Residual norm: 7646.45292806
+[Iter 6] Residual norm: 7601.04604147
+[Iter 7] Residual norm: 7558.54314350
+[Iter 8] Residual norm: 7518.40020775
+[Iter 9] Residual norm: 7480.23365898
+Time elapsed is 1.168956 seconds.
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 8481975
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 186/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 184/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 189/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 185/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 191/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 188/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 187/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 178/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 176/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 180/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 179/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 183/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 177/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 181/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 182/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 190/256 running on c465-602.stampede.tacc.utexas.edu.
+Rank 76/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 74/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 77/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 68/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 66/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 72/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 65/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 75/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 79/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 73/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 67/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 78/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 71/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 69/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 64/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 70/256 running on c464-202.stampede.tacc.utexas.edu.
+Rank 124/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 125/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 126/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 120/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 122/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 121/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 118/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 117/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 115/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 127/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 116/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 112/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 114/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 113/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 119/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 123/256 running on c465-303.stampede.tacc.utexas.edu.
+Rank 45/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 40/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 42/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 44/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 41/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 46/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 43/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 47/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 36/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 38/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 35/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 34/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 37/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 33/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 39/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 32/256 running on c463-901.stampede.tacc.utexas.edu.
+Rank 28/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 29/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 27/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 21/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 22/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 17/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 23/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 30/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 19/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 18/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 25/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 26/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 24/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 31/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 20/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 16/256 running on c463-704.stampede.tacc.utexas.edu.
+Rank 95/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 94/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 91/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 90/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 92/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 89/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 83/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 87/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 85/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 80/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 93/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 88/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 86/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 82/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 84/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 81/256 running on c464-302.stampede.tacc.utexas.edu.
+Rank 11/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 8/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 15/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 10/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 14/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 6/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 5/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 7/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 4/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 3/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 9/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 12/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 0/256 running on c463-302.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)Rank 2/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 13/256 running on c463-302.stampede.tacc.utexas.edu.
+
+Rank 0: Number of intervals = 262144, max_iters = 10
+Rank 0: Number of MG levels: 18 
+Rank 1/256 running on c463-302.stampede.tacc.utexas.edu.
+Rank 242/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 241/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 247/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 243/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 244/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 240/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 245/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 248/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 250/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 255/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 253/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 252/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 254/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 249/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 251/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 246/256 running on c478-903.stampede.tacc.utexas.edu.
+Rank 57/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 62/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 56/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 63/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 60/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 51/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 49/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 59/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 48/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 50/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 55/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 58/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 52/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 54/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 61/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 53/256 running on c464-102.stampede.tacc.utexas.edu.
+Rank 110/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 106/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 105/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 98/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 104/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 96/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 107/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 108/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 97/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 100/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 111/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 99/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 102/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 109/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 101/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 103/256 running on c465-302.stampede.tacc.utexas.edu.
+Rank 153/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 159/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 154/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 149/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 144/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 147/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 150/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 151/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 145/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 155/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 157/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 152/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 158/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 156/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 148/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 146/256 running on c465-401.stampede.tacc.utexas.edu.
+Rank 237/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 236/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 225/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 229/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 239/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 228/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 232/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 230/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 233/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 226/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 231/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 234/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 224/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 227/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 238/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 235/256 running on c478-902.stampede.tacc.utexas.edu.
+Rank 136/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 140/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 141/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 138/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 137/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 143/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 142/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 139/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 130/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 129/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 133/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 135/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 132/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 128/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 131/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 134/256 running on c465-304.stampede.tacc.utexas.edu.
+Rank 206/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 194/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 192/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 195/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 207/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 200/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 198/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 193/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 196/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 205/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 197/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 204/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 199/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 201/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 203/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 202/256 running on c465-603.stampede.tacc.utexas.edu.
+Rank 170/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 169/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 168/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 172/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 173/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 175/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 174/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 166/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 167/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 171/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 163/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 160/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 162/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 164/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 161/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 165/256 running on c465-402.stampede.tacc.utexas.edu.
+Rank 223/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 216/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 219/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 220/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 221/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 217/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 222/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 218/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 208/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 209/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 212/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 214/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 211/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 210/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 215/256 running on c465-604.stampede.tacc.utexas.edu.
+Rank 213/256 running on c465-604.stampede.tacc.utexas.edu.
+l: 0: h=0.000000
+MG level  0, N =   262144
+l: 1: h=0.000000
+MG level  1, N =   131072
+l: 2: h=0.000000
+MG level  2, N =    65536
+l: 3: h=0.000000
+MG level  3, N =    32768
+l: 4: h=0.000000
+MG level  4, N =    16384
+l: 5: h=0.000000
+MG level  5, N =     8192
+l: 6: h=0.000001
+MG level  6, N =     4096
+l: 7: h=0.000002
+MG level  7, N =     2048
+l: 8: h=0.000004
+MG level  8, N =     1024
+l: 9: h=0.000008
+MG level  9, N =      512
+l: 10: h=0.000015
+MG level 10, N =      256
+l: 11: h=0.000031
+MG level 11, N =      128
+l: 12: h=0.000061
+MG level 12, N =       64
+l: 13: h=0.000122
+MG level 13, N =       32
+l: 14: h=0.000244
+MG level 14, N =       16
+l: 15: h=0.000488
+MG level 15, N =        8
+l: 16: h=0.000977
+MG level 16, N =        4
+l: 17: h=0.001953
+MG level 17, N =        2
+Initial Residual: 8192.015503
+[Iter 0] Residual norm: 8083.70480530
+[Iter 1] Residual norm: 8038.33814441
+[Iter 2] Residual norm: 8003.38674022
+[Iter 3] Residual norm: 7973.80465390
+[Iter 4] Residual norm: 7947.65176198
+[Iter 5] Residual norm: 7923.93374396
+[Iter 6] Residual norm: 7902.06009143
+[Iter 7] Residual norm: 7881.64630464
+[Iter 8] Residual norm: 7862.42489566
+[Iter 9] Residual norm: 7844.20151498
+Time elapsed is 0.503421 seconds.
+ 
+TACC: Shutdown complete. Exiting.

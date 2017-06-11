@@ -1,0 +1,516 @@
+ibrun -o 0 -n $i ./multigrid_1d_mpi $((2**(22)*$i)) 10 5
+TACC: Starting up job 8469933
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 0/2 running on c557-904.stampede.tacc.utexas.edu.
+Rank 1/2 running on c557-904.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 4194304, max_iters = 10
+Rank 0: Number of MG levels: 22 
+l: 0: h=0.000000
+MG level  0, N =  4194304
+l: 1: h=0.000000
+MG level  1, N =  2097152
+l: 2: h=0.000000
+MG level  2, N =  1048576
+l: 3: h=0.000001
+MG level  3, N =   524288
+l: 4: h=0.000002
+MG level  4, N =   262144
+l: 5: h=0.000004
+MG level  5, N =   131072
+l: 6: h=0.000008
+MG level  6, N =    65536
+l: 7: h=0.000015
+MG level  7, N =    32768
+l: 8: h=0.000031
+MG level  8, N =    16384
+l: 9: h=0.000061
+MG level  9, N =     8192
+l: 10: h=0.000122
+MG level 10, N =     4096
+l: 11: h=0.000244
+MG level 11, N =     2048
+l: 12: h=0.000488
+MG level 12, N =     1024
+l: 13: h=0.000977
+MG level 13, N =      512
+l: 14: h=0.001953
+MG level 14, N =      256
+l: 15: h=0.003906
+MG level 15, N =      128
+l: 16: h=0.007812
+MG level 16, N =       64
+l: 17: h=0.015625
+MG level 17, N =       32
+l: 18: h=0.031250
+MG level 18, N =       16
+l: 19: h=0.062500
+MG level 19, N =        8
+l: 20: h=0.125000
+MG level 20, N =        4
+l: 21: h=0.250000
+MG level 21, N =        2
+Initial Residual: 2896.309376
+[Iter 0] Residual norm: 92.51041464
+[Iter 1] Residual norm: 3.79861411
+[Iter 2] Residual norm: 3.00717134
+[Iter 3] Residual norm: 2.80538017
+[Iter 4] Residual norm: 2.71180878
+[Iter 5] Residual norm: 2.69821804
+[Iter 6] Residual norm: 2.73267809
+[Iter 7] Residual norm: 2.58686239
+[Iter 8] Residual norm: 2.21722995
+[Iter 9] Residual norm: 1.39997989
+Time elapsed is 4.261006 seconds.
+ 
+TACC: Shutdown complete. Exiting.
+ibrun -o 0 -n $i ./multigrid_1d_mpi $((2**(22)*$i)) 10 5
+TACC: Starting up job 8469933
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 0/4 running on c557-904.stampede.tacc.utexas.edu.
+Rank 1/4 running on c557-904.stampede.tacc.utexas.edu.
+Rank 2/4 running on c557-904.stampede.tacc.utexas.edu.
+Rank 3/4 running on c557-904.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 4194304, max_iters = 10
+Rank 0: Number of MG levels: 22 
+l: 0: h=0.000000
+MG level  0, N =  4194304
+l: 1: h=0.000000
+MG level  1, N =  2097152
+l: 2: h=0.000000
+MG level  2, N =  1048576
+l: 3: h=0.000000
+MG level  3, N =   524288
+l: 4: h=0.000001
+MG level  4, N =   262144
+l: 5: h=0.000002
+MG level  5, N =   131072
+l: 6: h=0.000004
+MG level  6, N =    65536
+l: 7: h=0.000008
+MG level  7, N =    32768
+l: 8: h=0.000015
+MG level  8, N =    16384
+l: 9: h=0.000031
+MG level  9, N =     8192
+l: 10: h=0.000061
+MG level 10, N =     4096
+l: 11: h=0.000122
+MG level 11, N =     2048
+l: 12: h=0.000244
+MG level 12, N =     1024
+l: 13: h=0.000488
+MG level 13, N =      512
+l: 14: h=0.000977
+MG level 14, N =      256
+l: 15: h=0.001953
+MG level 15, N =      128
+l: 16: h=0.003906
+MG level 16, N =       64
+l: 17: h=0.007812
+MG level 17, N =       32
+l: 18: h=0.015625
+MG level 18, N =       16
+l: 19: h=0.031250
+MG level 19, N =        8
+l: 20: h=0.062500
+MG level 20, N =        4
+l: 21: h=0.125000
+MG level 21, N =        2
+Initial Residual: 4096.000244
+[Iter 0] Residual norm: 276.97215344
+[Iter 1] Residual norm: 22.63718783
+[Iter 2] Residual norm: 17.21019307
+[Iter 3] Residual norm: 16.04763207
+[Iter 4] Residual norm: 15.42638592
+[Iter 5] Residual norm: 15.13323345
+[Iter 6] Residual norm: 14.90675026
+[Iter 7] Residual norm: 15.46986946
+[Iter 8] Residual norm: 13.18034961
+[Iter 9] Residual norm: 10.50513691
+Time elapsed is 5.760734 seconds.
+ 
+TACC: Shutdown complete. Exiting.
+ibrun -o 0 -n $i ./multigrid_1d_mpi $((2**(22)*$i)) 10 5
+TACC: Starting up job 8469933
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 6/8 running on c557-904.stampede.tacc.utexas.edu.
+Rank 4/8 running on c557-904.stampede.tacc.utexas.edu.
+Rank 0/8 running on c557-904.stampede.tacc.utexas.edu.
+Rank 2/8 running on c557-904.stampede.tacc.utexas.edu.
+Rank 5/8 running on c557-904.stampede.tacc.utexas.edu.
+Rank 3/8 running on c557-904.stampede.tacc.utexas.edu.
+Rank 7/8 running on c557-904.stampede.tacc.utexas.edu.
+Rank 1/8 running on c557-904.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 4194304, max_iters = 10
+Rank 0: Number of MG levels: 22 
+l: 0: h=0.000000
+MG level  0, N =  4194304
+l: 1: h=0.000000
+MG level  1, N =  2097152
+l: 2: h=0.000000
+MG level  2, N =  1048576
+l: 3: h=0.000000
+MG level  3, N =   524288
+l: 4: h=0.000000
+MG level  4, N =   262144
+l: 5: h=0.000001
+MG level  5, N =   131072
+l: 6: h=0.000002
+MG level  6, N =    65536
+l: 7: h=0.000004
+MG level  7, N =    32768
+l: 8: h=0.000008
+MG level  8, N =    16384
+l: 9: h=0.000015
+MG level  9, N =     8192
+l: 10: h=0.000031
+MG level 10, N =     4096
+l: 11: h=0.000061
+MG level 11, N =     2048
+l: 12: h=0.000122
+MG level 12, N =     1024
+l: 13: h=0.000244
+MG level 13, N =      512
+l: 14: h=0.000488
+MG level 14, N =      256
+l: 15: h=0.000977
+MG level 15, N =      128
+l: 16: h=0.001953
+MG level 16, N =       64
+l: 17: h=0.003906
+MG level 17, N =       32
+l: 18: h=0.007812
+MG level 18, N =       16
+l: 19: h=0.015625
+MG level 19, N =        8
+l: 20: h=0.031250
+MG level 20, N =        4
+l: 21: h=0.062500
+MG level 21, N =        2
+Initial Residual: 5792.619269
+[Iter 0] Residual norm: 2631.62633346
+[Iter 1] Residual norm: 1327.91823179
+[Iter 2] Residual norm: 672.13771224
+[Iter 3] Residual norm: 343.59467386
+[Iter 4] Residual norm: 178.09300831
+[Iter 5] Residual norm: 110.13314109
+[Iter 6] Residual norm: 88.68382286
+[Iter 7] Residual norm: 91.94097915
+[Iter 8] Residual norm: 88.87503167
+[Iter 9] Residual norm: 86.35894495
+Time elapsed is 10.245365 seconds.
+ 
+TACC: Shutdown complete. Exiting.
+ibrun -o 0 -n $i ./multigrid_1d_mpi $((2**(22)*$i)) 10 5
+TACC: Starting up job 8469933
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 8/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 15/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 12/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 14/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 9/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 10/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 1/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 5/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 3/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 7/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 6/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 0/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 4/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 2/16 running on c557-904.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 4194304, max_iters = 10
+Rank 0: Number of MG levels: 22 
+Rank 13/16 running on c557-904.stampede.tacc.utexas.edu.
+Rank 11/16 running on c557-904.stampede.tacc.utexas.edu.
+l: 0: h=0.000000
+MG level  0, N =  4194304
+l: 1: h=0.000000
+MG level  1, N =  2097152
+l: 2: h=0.000000
+MG level  2, N =  1048576
+l: 3: h=0.000000
+MG level  3, N =   524288
+l: 4: h=0.000000
+MG level  4, N =   262144
+l: 5: h=0.000000
+MG level  5, N =   131072
+l: 6: h=0.000001
+MG level  6, N =    65536
+l: 7: h=0.000002
+MG level  7, N =    32768
+l: 8: h=0.000004
+MG level  8, N =    16384
+l: 9: h=0.000008
+MG level  9, N =     8192
+l: 10: h=0.000015
+MG level 10, N =     4096
+l: 11: h=0.000031
+MG level 11, N =     2048
+l: 12: h=0.000061
+MG level 12, N =     1024
+l: 13: h=0.000122
+MG level 13, N =      512
+l: 14: h=0.000244
+MG level 14, N =      256
+l: 15: h=0.000488
+MG level 15, N =      128
+l: 16: h=0.000977
+MG level 16, N =       64
+l: 17: h=0.001953
+MG level 17, N =       32
+l: 18: h=0.003906
+MG level 18, N =       16
+l: 19: h=0.007812
+MG level 19, N =        8
+l: 20: h=0.015625
+MG level 20, N =        4
+l: 21: h=0.031250
+MG level 21, N =        2
+Initial Residual: 8192.000854
+[Iter 0] Residual norm: 6238.04595610
+[Iter 1] Residual norm: 5238.74442440
+[Iter 2] Residual norm: 4415.34865451
+[Iter 3] Residual norm: 3721.51916390
+[Iter 4] Residual norm: 3141.79460919
+[Iter 5] Residual norm: 2667.78261293
+[Iter 6] Residual norm: 2268.23153503
+[Iter 7] Residual norm: 1902.95738668
+[Iter 8] Residual norm: 1607.04384545
+[Iter 9] Residual norm: 1350.70961776
+Time elapsed is 10.314167 seconds.
+ 
+TACC: Shutdown complete. Exiting.
+ibrun -o 0 -n $i ./multigrid_1d_mpi $((2**(22)*$i)) 10 5
+TACC: Starting up job 8469933
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 15/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 8/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 13/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 14/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 10/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 3/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 6/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 4/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 1/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 9/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 7/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 12/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 0/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 2/32 running on c557-904.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 4194304, max_iters = 10
+Rank 0: Number of MG levels: 22 
+Rank 11/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 5/32 running on c557-904.stampede.tacc.utexas.edu.
+Rank 24/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 31/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 29/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 23/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 16/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 22/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 20/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 30/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 26/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 28/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 18/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 17/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 19/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 21/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 27/32 running on c558-001.stampede.tacc.utexas.edu.
+Rank 25/32 running on c558-001.stampede.tacc.utexas.edu.
+l: 0: h=0.000000
+MG level  0, N =  4194304
+l: 1: h=0.000000
+MG level  1, N =  2097152
+l: 2: h=0.000000
+MG level  2, N =  1048576
+l: 3: h=0.000000
+MG level  3, N =   524288
+l: 4: h=0.000000
+MG level  4, N =   262144
+l: 5: h=0.000000
+MG level  5, N =   131072
+l: 6: h=0.000000
+MG level  6, N =    65536
+l: 7: h=0.000001
+MG level  7, N =    32768
+l: 8: h=0.000002
+MG level  8, N =    16384
+l: 9: h=0.000004
+MG level  9, N =     8192
+l: 10: h=0.000008
+MG level 10, N =     4096
+l: 11: h=0.000015
+MG level 11, N =     2048
+l: 12: h=0.000031
+MG level 12, N =     1024
+l: 13: h=0.000061
+MG level 13, N =      512
+l: 14: h=0.000122
+MG level 14, N =      256
+l: 15: h=0.000244
+MG level 15, N =      128
+l: 16: h=0.000488
+MG level 16, N =       64
+l: 17: h=0.000977
+MG level 17, N =       32
+l: 18: h=0.001953
+MG level 18, N =       16
+l: 19: h=0.003906
+MG level 19, N =        8
+l: 20: h=0.007812
+MG level 20, N =        4
+l: 21: h=0.015625
+MG level 21, N =        2
+Initial Residual: 11585.238798
+[Iter 0] Residual norm: 10296.90097353
+[Iter 1] Residual norm: 9715.37077675
+[Iter 2] Residual norm: 9243.13375793
+[Iter 3] Residual norm: 8828.87850407
+[Iter 4] Residual norm: 8448.44539669
+[Iter 5] Residual norm: 8090.56262397
+[Iter 6] Residual norm: 7750.77780311
+[Iter 7] Residual norm: 7462.44161804
+[Iter 8] Residual norm: 7177.70717290
+[Iter 9] Residual norm: 6904.21981574
+Time elapsed is 10.400776 seconds.
+ 
+TACC: Shutdown complete. Exiting.
+ibrun -o 0 -n $i ./multigrid_1d_mpi $((2**(22)*$i)) 10 5
+TACC: Starting up job 8469933
+TACC: Setting up parallel environment for MVAPICH2+mpispawn.
+TACC: Starting parallel tasks...
+Rank 27/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 30/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 29/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 31/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 16/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 20/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 18/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 21/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 25/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 22/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 26/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 23/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 24/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 19/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 17/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 28/64 running on c558-001.stampede.tacc.utexas.edu.
+Rank 13/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 9/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 10/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 8/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 1/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 0/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 4/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 2/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 3/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 7/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 11/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 12/64 running on c557-904.stampede.tacc.utexas.edu.
+Multigrid Solve using V-cycles for -u'' = f on (0,1)
+Rank 0: Number of intervals = 4194304, max_iters = 10
+Rank 0: Number of MG levels: 22 
+Rank 14/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 6/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 15/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 5/64 running on c557-904.stampede.tacc.utexas.edu.
+Rank 56/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 57/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 61/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 58/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 59/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 63/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 62/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 60/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 54/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 52/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 48/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 53/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 51/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 50/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 55/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 49/64 running on c558-003.stampede.tacc.utexas.edu.
+Rank 47/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 42/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 44/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 40/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 41/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 38/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 39/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 33/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 32/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 43/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 34/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 45/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 46/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 36/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 35/64 running on c558-002.stampede.tacc.utexas.edu.
+Rank 37/64 running on c558-002.stampede.tacc.utexas.edu.
+l: 0: h=0.000000
+MG level  0, N =  4194304
+l: 1: h=0.000000
+MG level  1, N =  2097152
+l: 2: h=0.000000
+MG level  2, N =  1048576
+l: 3: h=0.000000
+MG level  3, N =   524288
+l: 4: h=0.000000
+MG level  4, N =   262144
+l: 5: h=0.000000
+MG level  5, N =   131072
+l: 6: h=0.000000
+MG level  6, N =    65536
+l: 7: h=0.000000
+MG level  7, N =    32768
+l: 8: h=0.000001
+MG level  8, N =    16384
+l: 9: h=0.000002
+MG level  9, N =     8192
+l: 10: h=0.000004
+MG level 10, N =     4096
+l: 11: h=0.000008
+MG level 11, N =     2048
+l: 12: h=0.000015
+MG level 12, N =     1024
+l: 13: h=0.000031
+MG level 13, N =      512
+l: 14: h=0.000061
+MG level 14, N =      256
+l: 15: h=0.000122
+MG level 15, N =      128
+l: 16: h=0.000244
+MG level 16, N =       64
+l: 17: h=0.000488
+MG level 17, N =       32
+l: 18: h=0.000977
+MG level 18, N =       16
+l: 19: h=0.001953
+MG level 19, N =        8
+l: 20: h=0.003906
+MG level 20, N =        4
+l: 21: h=0.007812
+MG level 21, N =        2
+Initial Residual: 16384.001892
+[Iter 0] Residual norm: 15499.86194359
+[Iter 1] Residual norm: 15120.66126812
+[Iter 2] Residual norm: 14822.37264248
+[Iter 3] Residual norm: 14571.91994946
+[Iter 4] Residual norm: 14343.29066644
+[Iter 5] Residual norm: 14132.66234375
+[Iter 6] Residual norm: 13936.33149788
+[Iter 7] Residual norm: 13810.81660289
+[Iter 8] Residual norm: 13647.00898117
+[Iter 9] Residual norm: 13487.10412480
+Time elapsed is 10.422988 seconds.
+ 
+TACC: Shutdown complete. Exiting.
