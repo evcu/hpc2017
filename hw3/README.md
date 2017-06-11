@@ -1,3 +1,9 @@
+```
+git clone https://github.com/evcu/hpc2017.git
+cd hpc2017/hw3
+make
+```
+
 Note: I ran all the commands from crunchy4 hosting them on crunchy3 and crunchy1. As a summary:
     - 1) 0.0725s communication latency
     - 2) 49mb/s bandwith
@@ -51,7 +57,7 @@ time mpirun -np 6 --hosts crunchy1,crunchy3 -perhost 1 ./int_ring 20 > /dev/null
 
 real	0m4.930s
 user	0m0.026s
-sys	    0m0.079s 
+sys	    0m0.079s
 ```
 
 Total number of bytes transferred is `(2000000*120.0)`. The the bandwith is therefore `(2000000*120.0)/((766+816+930)/3000.0+4)=49,614,112` bytes/second, which is almost 50mb/s.

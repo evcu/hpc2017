@@ -1,8 +1,8 @@
 ## HW4 - HPC 2017 - Utku Evci
-There are bugs and MPI-jacobi and sample-sort algorithm. To test the algorithms run. `mpi_solved5` runs forever by nature. 
+There are bugs and MPI-jacobi and sample-sort algorithm. To test the algorithms run. `mpi_solved5` runs forever by nature.
 ```
-git clone https://github.com/evcu/hpc2017-hw4.git
-cd hpc2017-hw4
+git clone https://github.com/evcu/hpc2017.git
+cd hpc2017/hw4
 module load intel-2016
 make
 mpirun -np 4 ./mpi_solved1

@@ -1,14 +1,8 @@
-# lecture1
+## High Performance Computing, Spring 2017
+_thought by Georg Stadler_, [class-page](http://cims.nyu.edu/~stadler/hpc17/)
 
-Example files for the multiplication of the components of two vectors,
-and the computation of the inner product between two vectors.
-Contains serial version, as well as OpenMP and MPI versions.
-
-For the OpenMP example, you need to use a somewhat recent compiler,
-and must use -fopenmp to link against the OpenMP libs, e.g.:
-
-gcc inner-omp.c -a inner-omp -fopenmp
-
-
-
-
+- [__Homework 1__](https://github.com/evcu/hpc2017/tree/master/hw1) : Serial implementation of Jacobi smoother.
+- [__Homework 2__](https://github.com/evcu/hpc2017/tree/master/hw2) : OpenMP debugging + 2D Jacobi&GaussSeidel Solver(OpenMP)
+- [__Homework 3__](https://github.com/evcu/hpc2017/tree/master/hw3) : OpenMPI ring code and bandwidth experiments.
+- [__Homework 4__](https://github.com/evcu/hpc2017/tree/master/hw4) : OpenMPI debugging + 2D Jacobi(OpenMPI) Blocking&Non-Blocking implementation + Sample sort implementation (OpenMPI)
+- [__Homework 5__](https://github.com/evcu/hpc2017/tree/master/hw5) : 1-D OpenMPI multi-grid solver imlpementation.
