@@ -5,7 +5,7 @@ __NOTE__:If `gcc-6` doesn't exists in local computer, update compiler in `Makefi
 ## To run the code
 ```
 git clone https://github.com/evcu/hpc2017.git
-cd hpc2017/homework2
+cd hpc2017/hw2
 make
 ./omp_solved2
 ./omp_solved3
