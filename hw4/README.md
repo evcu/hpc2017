@@ -29,4 +29,4 @@ sbatch q3
 The output files of these jobs are coppied into `console_output/` folder.
 
 ### Results
-Results/Report is [here](https://github.com/evcu/hpc2017-hw4/blob/master/result/Results.ipynb)
+Results/Report is [here](https://github.com/evcu/hpc2017/blob/master/hw4/result/Results.ipynb)
