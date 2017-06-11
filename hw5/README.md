@@ -21,4 +21,4 @@ sbatch weakScaling.job
 The output files of these jobs are coppied into `results/` folder.
 
 ### Results
-Results/Report is [here](https://github.com/evcu/hpc2017-hw5/blob/master/results/Results.ipynb)
+Results/Report is [here](https://github.com/evcu/hpc2017/blob/master/hw5/results/Results.ipynb)
